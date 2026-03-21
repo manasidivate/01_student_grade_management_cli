@@ -72,6 +72,41 @@ python main.py
 
 ---
 
+## 🖥️ Sample Run
+
+```
+---Menu Options---
+
+1. Add Student
+2. Find Student
+3. Add Marks
+4. Calculate Average
+5. Assign Grade
+6. Display Report
+7. Delete Student
+8. View Students
+9. Exit Program
+
+Enter choice: 1
+Enter student name: John
+Student added successfully
+
+Enter choice: 3
+Enter student name: John
+Enter marks: 85
+Marks added successfully
+
+Enter choice: 6
+Enter student name: John
+Student name: John
+Student marks: [85]
+Average marks: 85.0
+Grade: B
+```
+
+This is a simple example to show how the system behaves when interacting through the CLI.
+
+
 ## 📌 What I learned from this project
 
 - Structuring data (students + marks)
@@ -82,12 +117,17 @@ python main.py
 
 ---
 
-## ✨ Future improvements
+## 🔄 Next Version
 
-- Store data using files or database (instead of runtime list)
-- Add validation for inputs
-- Build a GUI version of this system
-- Improve error handling and user experience
+For the next version of this project, I plan to improve it further by:
+
+- Improving the data structure to make the code more clear and scalable  
+- Storing data using files or a database instead of runtime memory  
+- Improving input validation and handling edge cases better  
+- Structuring the code into multiple modules for better readability  
+- Exploring a GUI-based version for better user interaction  
+
+This version focuses on getting the logic right. The next version will focus more on structure and scalability.
 
 ---
 
