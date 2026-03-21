@@ -106,6 +106,7 @@ Grade: B
 
 This is a simple example to show how the system behaves when interacting through the CLI.
 
+---
 
 ## 📌 What I learned from this project
 
