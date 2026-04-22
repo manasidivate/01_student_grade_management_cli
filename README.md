@@ -51,7 +51,8 @@ Key improvements include:
 
 This version reflects a shift from implementing features to designing a more structured and maintainable system.
 
-```markdown
+---
+
 ## 🚀 How to Run
 
 Navigate to the version you want to run.
@@ -61,8 +62,13 @@ Navigate to the version you want to run.
 ```bash
 cd v1
 python main.py
+```
 
-Run Version 2
+---
+
+### Run Version 2
+
+```bash
 cd v2
 python main.py
 
@@ -75,6 +81,7 @@ Version 1 focuses on getting the core functionality working.
 Version 2 focuses on improving structure, reusability, validation, and overall code quality.
 
 This makes the progression of the project clear, rather than presenting only the final version.
+
 
 ## 💭 Final Note
 
