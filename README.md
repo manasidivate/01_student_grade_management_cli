@@ -1,139 +1,85 @@
 # 🎓 Student Grade Management System (CLI)
 
-This is a simple command-line based application built using Python to manage student records and their marks.
+This repository contains two versions of a Python-based Student Grade Management System developed as part of my backend development learning process.
 
-I built this project as part of my backend learning journey to understand how real-world data can be structured, updated, and processed step by step — not just written as code, but designed logically.
+The focus of this project was not just to implement functionality, but to understand how the same system can be improved across versions in terms of structure, readability, and overall design.
 
----
-
-## 🚀 What this project can do
-
-The system allows you to:
-
-- Add a new student  
-- Search for a student (using reusable logic)  
-- Add marks to a specific student  
-- Calculate average marks  
-- Assign grades based on performance  
-- Display a complete student report  
-- Delete a student record  
-- View all students  
-
-Everything runs through a menu-driven interface, so the flow feels structured and interactive.
+Instead of keeping only the latest version, both versions are included to clearly show that progression.
 
 ---
 
-## 🧠 How I approached this
+## 📂 Repository Structure
 
-Instead of writing everything in one place, I focused on:
-
-- Breaking features into functions  
-- Reusing logic wherever possible (like the `search_student` helper)  
-- Avoiding repeated input handling  
-- Keeping the flow simple but structured  
-
-For example, searching a student is separated as a helper function so it can be reused in multiple features like adding marks, calculating average, etc.
+- `v1/` → Initial version of the project  
+- `v2/` → Improved version with better structure, validation, and persistent storage  
 
 ---
 
-## 🛠️ Tech Used
+## 🔹 Version 1
 
-- Python  
-- Lists (for storing records)  
-- Functions  
-- Basic control flow (loops, conditionals)
+Version 1 focuses on implementing the core functionality of the system.
+
+It includes features such as:
+
+- adding a student  
+- finding a student  
+- adding marks  
+- calculating average  
+- assigning grade  
+- displaying report  
+- deleting a student  
+- viewing all students  
+
+This version helped build a strong foundation in structuring logic and developing a complete CLI-based workflow.
 
 ---
 
-## 📂 Project Structure (simple and focused)
+## 🔹 Version 2
 
-This project is intentionally kept minimal to focus on core logic and problem-solving:
+Version 2 is an improved and refactored version of the same system.
 
-- `main.py` → contains the entire CLI system and feature implementation  
+In this version, the focus was on writing cleaner, more structured, and reusable code.
 
----
+Key improvements include:
 
-## ▶️ How to run
+- separation of reusable logic from user interaction  
+- reduction of duplicate code through helper functions  
+- input validation and error handling  
+- improved control flow for menu handling  
+- JSON-based persistent data storage  
+- improved readability and maintainability  
 
-1. Clone the repository
-```
-git clone https://github.com/manasidivate/student-grade-management-system-cli.git
-```
+This version reflects a shift from implementing features to designing a more structured and maintainable system.
 
-2. Go to the project folder
-```
-cd student-grade-management-system-cli
-```
+```markdown
+## 🚀 How to Run
 
-3. Run the program
-```
+Navigate to the version you want to run.
+
+### Run Version 1
+
+```bash
+cd v1
 python main.py
-```
 
----
+Run Version 2
+cd v2
+python main.py
 
-## 🖥️ Sample Run
 
-```
----Menu Options---
+## 📌 Why both versions are included
 
-1. Add Student
-2. Find Student
-3. Add Marks
-4. Calculate Average
-5. Assign Grade
-6. Display Report
-7. Delete Student
-8. View Students
-9. Exit Program
+Both versions are included to highlight how the same system was improved over time.
 
-Enter choice: 1
-Enter student name: John
-Student added successfully
+Version 1 focuses on getting the core functionality working.
+Version 2 focuses on improving structure, reusability, validation, and overall code quality.
 
-Enter choice: 3
-Enter student name: John
-Enter marks: 85
-Marks added successfully
+This makes the progression of the project clear, rather than presenting only the final version.
 
-Enter choice: 6
-Enter student name: John
-Student name: John
-Student marks: [85]
-Average marks: 85.0
-Grade: B
-```
+## 💭 Final Note
 
-This is a simple example to show how the system behaves when interacting through the CLI.
+While the problem itself is straightforward, this project has been an important step in improving how I approach building software.
 
----
+It helped me move from writing code feature by feature to thinking more carefully about reusability, validation, control flow, and overall structure.
 
-## 📌 What I learned from this project
-
-- Structuring data (students + marks)
-- Writing reusable functions
-- Avoiding redundant code
-- Handling edge cases (like no marks / student not found)
-- Building a complete CLI workflow from scratch
-
----
-
-## 🔄 Next Version
-
-For the next version of this project, I plan to improve it further by:
-
-- Improving the data structure to make the code more clear and scalable  
-- Storing data using files or a database instead of runtime memory  
-- Improving input validation and handling edge cases better  
-- Structuring the code into multiple modules for better readability  
-- Exploring a GUI-based version for better user interaction  
-
-This version focuses on getting the logic right. The next version will focus more on structure and scalability.
-
----
-
-## 💭 Final note
-
-This project may look simple, but it helped me shift from just "writing Python code" to actually "building something with logic and structure".
-
-And that’s the direction I’m continuing in.
+That is the direction I aim to keep building in.
