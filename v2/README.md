@@ -130,16 +130,6 @@ Grade: B
 - Structuring programs more systematically  
 - Improving readability and maintainability  
 
----
-
-## 🔄 What I plan next
-
-- Splitting the code into multiple modules  
-- Improving output formatting and user experience  
-- Exploring database integration instead of JSON  
-- Building a GUI-based version  
-
----
 
 ## 💭 Final Note
 
