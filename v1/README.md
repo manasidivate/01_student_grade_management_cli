@@ -39,7 +39,7 @@ For example, searching a student is separated as a helper function so it can be 
 ## 🛠️ Tech Used
 
 - Python  
-- Lists (for storing records)  
+- Basic data structures - Lists 
 - Functions  
 - Basic control flow (loops, conditionals)
 
@@ -88,19 +88,27 @@ python main.py
 9. Exit Program
 
 Enter choice: 1
-Enter student name: John
+Enter student name: Alice
 Student added successfully
 
 Enter choice: 3
-Enter student name: John
-Enter marks: 85
+Enter student name: Alice
+Enter marks: 78
 Marks added successfully
 
+Enter choice: 4
+Enter student name: Alice
+Average marks: 78.0
+
+Enter choice: 5
+Enter student name: Alice
+Grade: B
+
 Enter choice: 6
-Enter student name: John
-Student name: John
-Student marks: [85]
-Average marks: 85.0
+Enter student name: Alice
+Student name: Alice
+Student marks: [78]
+Average marks: 78.0
 Grade: B
 ```
 
