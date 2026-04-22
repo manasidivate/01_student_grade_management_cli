@@ -52,7 +52,6 @@ Key improvements include:
 This version reflects a shift from implementing features to designing a more structured and maintainable system.
 
 ---
-
 ## 🚀 How to Run
 
 Navigate to the version you want to run.
@@ -65,13 +64,14 @@ python main.py
 ```
 
 ---
-
 ### Run Version 2
 
 ```bash
 cd v2
 python main.py
+```
 
+---
 
 ## 📌 Why both versions are included
 
@@ -80,7 +80,7 @@ Both versions are included to highlight how the same system was improved over ti
 Version 1 focuses on getting the core functionality working.
 Version 2 focuses on improving structure, reusability, validation, and overall code quality.
 
-This makes the progression of the project clear, rather than presenting only the final version.
+This makes the progression of the project clear, rather than presenting only the final version. 
 
 
 ## 💭 Final Note
@@ -90,3 +90,5 @@ While the problem itself is straightforward, this project has been an important 
 It helped me move from writing code feature by feature to thinking more carefully about reusability, validation, control flow, and overall structure.
 
 That is the direction I aim to keep building in.
+
+---
